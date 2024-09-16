@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/editTextUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/agbalumo"
+            android:hint="Käyttäjätunnus"
+            android:textColor="#F60000" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextUsername"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/agbalumo"
+            android:hint="Salasana"
+            android:inputType="textPassword"
+            android:textColor="#F60D0D" />
+
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextPassword"
+            android:layout_marginTop="25dp"
+            android:backgroundTint="#000000"
+            android:fontFamily="@font/agbalumo"
+            android:text="Kirjaudu"
+            android:textColor="#F80707"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+    </RelativeLayout>
+</LinearLayout>
